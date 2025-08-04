@@ -11,13 +11,13 @@ import {
 
 // Firebase 설정
 const firebaseConfig = {
-  apiKey: "AIzaSyClroxydGdxlAHul08SeYrNlVgqXY9drKE",
-  authDomain: "test-e69c4.firebaseapp.com",
-  projectId: "test-e69c4",
-  storageBucket: "test-e69c4.appspot.com",
-  messagingSenderId: "102070631826",
-  appId: "1:102070631826:web:0007dd69204265baa2154b",
-  measurementId: "G-W5H5T8DY6H"
+  apiKey: "AIzaSyDK6JXZlmhklucAjHG3X6pmSI8KQxnL1zk",
+  authDomain: "job2-b2049.firebaseapp.com",
+  projectId: "job2-b2049",
+  storageBucket: "job2-b2049.firebasestorage.app",
+  messagingSenderId: "669940569201",
+  appId: "1:669940569201:web:1fcddc0bac30ff7ab677d0",
+  measurementId: "G-0X0WBSZK31"
 };
 
 const app = initializeApp(firebaseConfig);
@@ -170,4 +170,5 @@ enableImagePaste("title");
 enableImagePaste("answer");
 
 // 초기 로딩
+
 loadQuestions();
